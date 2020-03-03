@@ -39,8 +39,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGa-bM-vau">
-                                <rect key="frame" x="167" y="174.5" width="80" height="26.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGa-bM-vau">
+                                <rect key="frame" x="170" y="174.5" width="74.5" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -57,17 +57,23 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyiv" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGB-v4-Uaa">
+                                <rect key="frame" x="178" y="438.5" width="58.5" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KPR-Hr-0XW">
-                                <rect key="frame" x="128" y="438.5" width="158" height="107.5"/>
+                                <rect key="frame" x="130.5" y="488.5" width="153.5" height="107.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecB-g3-9OT">
-                                        <rect key="frame" x="0.0" y="0.0" width="111" height="107.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecB-g3-9OT">
+                                        <rect key="frame" x="0.0" y="0.0" width="106.5" height="107.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="90"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="℃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6m-LY-2cW">
-                                        <rect key="frame" x="116" y="0.0" width="42" height="45.5"/>
+                                        <rect key="frame" x="111.5" y="0.0" width="42" height="45.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -78,8 +84,10 @@
                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="PGa-bM-vau" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Wb-Vb-9nv"/>
+                            <constraint firstItem="rGB-v4-Uaa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2qa-oT-FZR"/>
                             <constraint firstItem="YoX-q4-wmX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="211" id="5Ix-pn-Op5"/>
                             <constraint firstItem="KPR-Hr-0XW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fn8-Ij-rnf"/>
+                            <constraint firstItem="rGB-v4-Uaa" firstAttribute="top" secondItem="Oym-Wm-Cgl" secondAttribute="bottom" constant="50" id="GTO-ht-RdP"/>
                             <constraint firstItem="YoX-q4-wmX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="HB6-5w-SBh"/>
                             <constraint firstItem="PGa-bM-vau" firstAttribute="top" secondItem="g5u-8j-CaS" secondAttribute="bottom" constant="50" id="LKm-7g-KYg"/>
                             <constraint firstItem="g5u-8j-CaS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="LMr-QM-U8x"/>
@@ -87,14 +95,15 @@
                             <constraint firstItem="Oym-Wm-Cgl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MoY-Os-xfW"/>
                             <constraint firstItem="YoX-q4-wmX" firstAttribute="top" secondItem="PGa-bM-vau" secondAttribute="bottom" constant="10" id="PDN-Ya-zd5"/>
                             <constraint firstItem="Oym-Wm-Cgl" firstAttribute="top" secondItem="YoX-q4-wmX" secondAttribute="bottom" constant="6" id="cj3-LB-tnY"/>
+                            <constraint firstItem="KPR-Hr-0XW" firstAttribute="top" secondItem="Oym-Wm-Cgl" secondAttribute="bottom" constant="100" id="frC-zs-jsf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g5u-8j-CaS" secondAttribute="trailing" constant="50" id="gcS-Fq-Wde"/>
                             <constraint firstItem="g5u-8j-CaS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rm6-3O-ss6"/>
-                            <constraint firstItem="KPR-Hr-0XW" firstAttribute="top" secondItem="Oym-Wm-Cgl" secondAttribute="bottom" constant="50" id="utg-L9-Lgq"/>
                             <constraint firstItem="YoX-q4-wmX" firstAttribute="centerX" secondItem="PGa-bM-vau" secondAttribute="centerX" id="ych-V9-09Q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="cityLabel" destination="rGB-v4-Uaa" id="z9Y-Qu-taQ"/>
                         <outlet property="cityTextField" destination="r8U-wU-QVr" id="v3e-Ps-iXY"/>
                         <outlet property="condImage" destination="YoX-q4-wmX" id="K2E-Qi-ljU"/>
                         <outlet property="condLabel" destination="Oym-Wm-Cgl" id="W0X-Ly-S5P"/>
